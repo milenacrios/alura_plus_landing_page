@@ -167,26 +167,49 @@ body {
     color: var(--tertiary-color);
 }
 
-@media(max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .container {
-        display: flex;
-        justify-content: center;
+        display: block;
+        
+       
     }
-
     .principal {
         background-image: url("img/backgroundResponsive.png");
-        background-size: 100% auto;
-        align-items: center;
-        padding-bottom: 40px;
-    }
-    .container__titulo {
-        padding-top: 10em;
+        margin: 0 auto; 
+        background-position: top center;
         
     }
-
-    .secundario__image{
-        width: 100%;
-    }
     
+   
+    .container__image {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+        padding-top: 20em;
+        
+        
+    }
+   
+    .secundario {
+        margin: 0;
+        text-align: center;
+        padding-top: 10em;
+    }
+
+    .secundario__image {
+        width: 50vw;
+    }
+    .image_box {
+        padding: 0;
+    }
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
     
 }
